@@ -32,19 +32,23 @@ public class Shirt extends Apparel{
         this.text = text;
     }
 
-    public Size getSize() {
+    public Size
+    getSize() {
         return size;
     }
 
-    public String getText() {
+    public String 
+    getText() {
         return text;
     }
 
-    public void setSize(Size size) {
+    public void
+    setSize(Size size) {
         this.size = size;
     }
 
-    public void setText(String text) {
+    public void
+    setText(String text) {
         this.text = text;
     }
 

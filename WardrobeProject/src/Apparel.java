@@ -1,4 +1,5 @@
 public class Apparel {
+    // Begin code copied from Dr. Carl Albing's COS212 data structures class with permission
     public enum Condition{
         NEW("new"),
         GOOD("good"),
@@ -10,6 +11,7 @@ public class Apparel {
         }
         public String toString(){ return mCond; }
     };
+    // End copied code
     String color;
     double price;
     Condition cond;
@@ -45,7 +47,8 @@ public class Apparel {
         this.price = price;
     }
 
-    public void setCond(Condition cond) {
+    public void
+    setCond(Condition cond) {
         this.cond = cond;
     }
     public String
