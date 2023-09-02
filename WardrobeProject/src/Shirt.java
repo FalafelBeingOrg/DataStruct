@@ -18,6 +18,12 @@ public class Shirt extends Apparel{
         size = Size.MED;
         text = null;
     }
+    Shirt(String color, double price, Condition cond, Size size){
+        this.color = color;
+        this.price = price;
+        this.cond = cond;
+        this.size = size;
+    }
     Shirt(String color, double price, Condition cond, Size size, String text){
         this.color = color;
         this.price = price;
@@ -46,7 +52,7 @@ public class Shirt extends Apparel{
     toString() {
         String returnString = "This size " + size + " " + color + " shirt cost $" + price + " and is in " + cond + " condition.";
         if (text != null) {
-            returnString += " It contains the text \"" + text + ".\"";
+            returnString += " It contains the text \"" + text + "\"";
         }
         return returnString;
     }
